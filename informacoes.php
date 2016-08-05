@@ -14,24 +14,28 @@
 
 <div id="conteudo">
 
-<h1><span class="destaca">"Nome"</span>, seja bem-vindo ao Conteúdo Exclusivo</h1>
+<h1><span class="destaca">"Nome"</span>, seguem as informações codificadas: </h1>
 
 <div class="borda"></div>
 
 <div class="clear"></div>
 
-<h3>Conteúdo exclusivo 01</h3>
+<h3>Conteúdo codificado 01</h3>
 
 <p>"Info 1"</p>
 
 
-<h3>Conteúdo Exclusivo 02</h3>
+<h3>Conteúdo codificado 02</h3>
 
 <p>"Info 2"</p>
 
 <div class="borda"></div>
 
+<p>Para decodificar as informações, <a href="informacoes_decode.php">clique aqui</a> !</p>
+
 </div>
+
+
 
 </body>
 

@@ -6,7 +6,7 @@
 
 <meta charset="utf-8">
 <title>Sistema de Registro Criptografado</title>
-<link href="style.css" rel="stylesheet" />
+<link href="../style.css" rel="stylesheet" />
 
 </head>
 
@@ -18,20 +18,29 @@
 
 <div class="borda"></div>
 
-<form method="post" action="registra.php" id="registra">
+
+<?php
+	$urlAcesso = "exibir_decode.php?key=".$_GET['key'];
+	echo "<form method=\"post\" action=".$urlAcesso." id=\"exibir_decode\">";
+?>
+
 <fieldset>
 <legend>Insira as informações codificadas!</legend>
 
-<label for="info1">Info 1:</label>
-<input type="text" name="info1" id="info1" />
+<label for="criptoInfo1">Info 1:</label>
+<input type="text" name="criptoInfo1" id="criptoInfo1" />
 <div class="clear"></div>
-<label for="senha">Info 2:</label>
-<input type="text" name="info2" id="info2" />
+<label for="criptoInfo2">Info 2:</label>
+<input type="text" name="criptoInfo2" id="criptoInfo2" />
 <div class="clear"></div>
 <input type="submit" value="Decodificar" />
 
 </fieldset>
 </form>
+
+
+
+
 
 </div>
 

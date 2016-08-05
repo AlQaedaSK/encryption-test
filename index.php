@@ -18,7 +18,7 @@
 
 <div class="borda"></div>
 
-<form method="post" action="registra.php" id="registra">
+<form method="post" action="back-end/registra.php" id="registra">
 <fieldset>
 <legend>Faça seu registo abaixo!</legend>
 <label for="nome">Seu nome:</label>
@@ -30,7 +30,7 @@
 <label for="info1">Info 1:</label>
 <input type="text" name="info1" id="info1" />
 <div class="clear"></div>
-<label for="senha">Info 2:</label>
+<label for="info2">Info 2:</label>
 <input type="text" name="info2" id="info2" />
 <div class="clear"></div>
 <input type="submit" value="Efetuar resgistro" />
